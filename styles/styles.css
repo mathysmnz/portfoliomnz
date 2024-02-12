@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.slider{
+   width:100%;
+   min-height: 80vh;
+   aspect-ratio:16/9;
+   background:#000;
+   position: relative;
+}
+
+.slider-background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+
+.slider-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+}
+
+h1{
+   color: #FFF; 
+   font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom:100px ;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+
+}
+
+.slider-content p{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+.boxed{
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex
+}
+
+.grey{
+    background: #000000; 
+   
+    color: #FFF;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+.w25{
+    width: 25%;
+    
+}
+
+.w32{
+    width: 32%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.skill{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.skill img{
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+
+}
+
+.skill h3{
+   margin-top: 10px;
+   color: #000; 
+   
+}
+
+.realisation{
+    height: auto;
+    aspect-ratio: 1/1 ;
+}
+
+.realisation a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.realisation img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+.video-player{
+    background-color:black;
+    color: #FFF;
+}
+
+.icon{
+    display: block;
+    font-size: 40px !important;
+}
+
+.label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.value{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.contact{
+    border: 2px dashed #FFF;
+    border-radius: 15px;
+    padding: 30px;
+  
+}
+
+.dark{
+    background: url(../img/image\ fin.PNG) ;
+    background-size: cover;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+   filter: brightness(50%);
+}
+
+.text-contact{
+    position: absolute;
+    color: #ffffff;
+    
+    
+}
